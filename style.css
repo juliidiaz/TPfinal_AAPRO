@@ -53,16 +53,12 @@ body {
     justify-content:center;
     align-items: center;
     text-align: center;
-    height: 400px;}
+    height: 400px;
+    background-color: white;}
 
 .descrip_1 {
     justify-content:center;}
 
-.descrip_2 {
-    background-image: url(./media/7.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:160%;}
 
 .text_descrip {
     font-family: special elite;
@@ -86,7 +82,6 @@ body {
 .boton_modal_color {
     background-color: lightpink;
     border: none;}
-
 
 
     /*DISEÑOS*/
@@ -201,9 +196,7 @@ body {
     /*MEDIA QUERY*/
 @media (min-width:768px) and (max-width:1024px) { 
         .text_descrip{
-            width: 90%;}
-        .descrip_2 {
-            background-size:129%;}}
+            width: 90%;}}
     
 @media (min-width:1024px) {
         .cont_descrip {
@@ -228,3 +221,25 @@ body {
             height: 100%;
             width: 32%;
         }}
+
+
+
+
+/*QUIENES SOMOS?*/
+
+.tabla_empresa {
+    background-color: bisque;
+    height: 300px;
+    border: solid 2px cornflowerblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;}
+
+.tit_tabla {
+    background-color: lightpink;
+    text-align: center;
+    font-size: x-large;
+    height: 80px;}
+
+.nombres_tabla, .sector_empresa {
+    padding-left: 20px;
+    padding-right: 20px;}
