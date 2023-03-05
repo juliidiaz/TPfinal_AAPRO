@@ -6,10 +6,6 @@ body {
     background-image: url(./media/celular.png);
     background-size:cover;
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
     text-align: center;
     height: 475px;}
 
@@ -91,7 +87,10 @@ body {
     background-color: lightpink;
     border: none;}
 
+
+
     /*DISEÑOS*/
+
 .diseno_gral{
     height: 680px;
     display: flex;
@@ -131,23 +130,25 @@ body {
         height: 100%;
         width: 100%;}
 
-    /*PRECIO*/
 
-.cont_precio_gral {
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;}
+
+    /*PRECIO*/
+.titulo_precio {
+    height: 90px;    }
+    
+.titulo_precio p {
+    font-family: caveat;
+    font-size: xx-large;}
 
 .cont_precio {
-    height: 87%;
-    width: 85%;
+    height: 270px;
+    width: 190px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 6px 20px;}
+    box-shadow: 6px 5px 10px grey;}
 
 .base {
     background-color: gainsboro;}

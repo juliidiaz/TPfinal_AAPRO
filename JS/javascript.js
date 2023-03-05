@@ -5,3 +5,23 @@ if (ingreso == "si") {
 }
 else {
     alert ("Ud. está entrando bajo su responsabilidad");}
+
+
+//POP UP//
+
+let salida = document.querySelector ('#emitiralerta');
+
+
+function emitiralerta() {
+    let resultado = window.confirm('Estas seguro que deseas salir?');
+    var URL="https://developer.mozilla.org/";
+
+if (resultado === true) {
+    $(location).attr('href',url);
+} else { 
+    window.alert('Pareces indeciso');
+}}
+
+
+
+
