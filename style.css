@@ -63,7 +63,7 @@ body {
     justify-content:center;}
 
 .descrip_2 {
-    background-image: url(/media/7.png);
+    background-image: url(./media/7.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size:160%;}
@@ -117,13 +117,13 @@ body {
     font-size: xx-large;}
 
 .dis_1 {
-    background-image: url(/media/cas.png);}
+    background-image: url(./media/cas.png);}
 
 .dis_2 {
-    background-image: url(/media/quin.png);}
+    background-image: url(./media/quin.png);}
 
 .dis_3 {
-    background-image: url(/media/gradu2.png);}
+    background-image: url(./media/gradu2.png);}
 
     .disenos_cont:hover{
         filter: grayscale(95%);
