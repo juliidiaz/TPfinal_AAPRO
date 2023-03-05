@@ -3,7 +3,7 @@ body {
     background-color: #EFEDE7;}
 
 .header_gral {
-    background-image: url(/media/celular.PNG);
+    background-image: url(./media/celular.png);
     background-size:cover;
     background-repeat: no-repeat;
     display: flex;
