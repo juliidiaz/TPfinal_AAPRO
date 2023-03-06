@@ -7,21 +7,13 @@ else {
     alert ("Ud. está entrando bajo su responsabilidad");}
 
 
-//POP UP//
+//CALCULAR ENVIO//
 
-let salida = document.querySelector ('#emitiralerta');
+let envio;
+function calcularenvio() {
+    let envio = prompt ("a cuántos km vive de San Nicolas?");
 
+    if (envio <=40) {
+        alert ("No se le cobrará envío");}
 
-function emitiralerta() {
-    let resultado = window.confirm('Estas seguro que deseas salir?');
-   
-
-if (resultado === true) {
-    $(location).attr('href',url);
-} else { 
-    window.alert('Pareces indeciso');
-}}
-
-
-
-
+    else alert ("Se le cobrará un envío de $800");}

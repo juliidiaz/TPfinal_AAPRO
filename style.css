@@ -48,10 +48,6 @@ body {
     /*DESCRIPCION*/
 
 .cont_descrip {
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
     text-align: center;
     height: 400px;
     background-color: white;}
@@ -129,7 +125,8 @@ body {
 
     /*PRECIO*/
 .titulo_precio {
-    height: 90px;    }
+    height: 90px;
+    margin-top: 20px;}
     
 .titulo_precio p {
     font-family: caveat;
@@ -243,3 +240,67 @@ body {
 .nombres_tabla, .sector_empresa {
     padding-left: 20px;
     padding-right: 20px;}
+
+
+
+    /*EJEMPLO1*/
+
+    .header_principal {
+        background-image:url(./media/portadacasamientocelu.png) ;
+        background-position: center;
+        background-size:100%;
+        background-repeat: no-repeat;
+        height: 475px;
+    background-color: aqua;}
+
+    .nuestra_boda {
+        font-weight: bolder;
+        color: white;    }
+
+    .nombres_novios {
+        font-family: parisienne;
+        font-size: 65px;
+        font-weight: bolder;
+        color: white;}
+
+    .container_frase {
+        background-color: white;}
+
+    .frase {
+        font-family: cookie;
+        font-size: 30px;
+        margin-top: 30px;}
+
+    .autor {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 30px;
+        font-size: x-large;}
+
+    .ceremonia_clara {
+        height: 450px;}
+    .ceremonia {
+        font-size: large;}
+
+    .text_ceremonia {
+        font-family: cookie;
+        font-size: x-large;}
+
+    .ceremonia_oscura {
+        background-color: #637b89;
+        color: white;
+        height: 450px;}
+
+    .spotify_gral {
+        background-image: url(./media/fondo_spotifi.png);
+    }
+    .te_recomendamos {
+        font-size: xx-large;
+        margin-top: 30px;}
+
+    .nuestra_playlist {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 50px;
+        font-family: cookie;
+    }
+    
